@@ -1,0 +1,73 @@
+$primary-color: #2f80ed;
+$secondary-color: #333333;
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    color: $secondary-color;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+h1 {
+    color: $primary-color;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    color: $secondary-color;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: $primary-color;
+}
+
+a {
+    color: $primary-color
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+.res {
+    max-width: 900px;
+    max-width: 0 auto;
+}
+
+.contact {
+    display: flex;
+
+    &_type {
+        min-width: 90px;
+    }
+}
+
+.contacts {
+    margin-bottom: 2em;
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.experience_date {
+    font-weight: bold;
+    min-width: 175px;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 575px) {
+    .experience {
+        display: block;
+    }
+}

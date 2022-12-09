@@ -1,0 +1,69 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+* {
+  color: #333333;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+h1 {
+  color: #2f80ed;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: #333333;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: #2f80ed;
+}
+
+a {
+  color: #2f80ed;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+.res {
+  max-width: 900px;
+  max-width: 0 auto;
+}
+
+.contact {
+  display: flex;
+}
+.contact_type {
+  min-width: 90px;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.experience {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.experience_date {
+  font-weight: bold;
+  min-width: 175px;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 575px) {
+  .experience {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */
